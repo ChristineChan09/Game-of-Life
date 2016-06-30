@@ -14,6 +14,29 @@
 		D97CBF0A1D2076B800FF74B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF081D2076B800FF74B5 /* Main.storyboard */; };
 		D97CBF0C1D2076B800FF74B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF0B1D2076B800FF74B5 /* Assets.xcassets */; };
 		D97CBF0F1D2076B800FF74B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF0D1D2076B800FF74B5 /* LaunchScreen.storyboard */; };
+		D97CBF1E1D20775000FF74B5 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF171D20775000FF74B5 /* background@2x.png */; };
+		D97CBF1F1D20775000FF74B5 /* balloon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF181D20775000FF74B5 /* balloon@2x.png */; };
+		D97CBF201D20775000FF74B5 /* bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF191D20775000FF74B5 /* bubble@2x.png */; };
+		D97CBF211D20775000FF74B5 /* grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF1A1D20775000FF74B5 /* grid@2x.png */; };
+		D97CBF221D20775000FF74B5 /* microscope@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF1B1D20775000FF74B5 /* microscope@2x.png */; };
+		D97CBF231D20775000FF74B5 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF1C1D20775000FF74B5 /* pause@2x.png */; };
+		D97CBF241D20775000FF74B5 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97CBF1D1D20775000FF74B5 /* play@2x.png */; };
+		D97CBF261D207F0300FF74B5 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF251D207F0300FF74B5 /* Grid.swift */; };
+		D97CBF281D2081B500FF74B5 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF271D2081B500FF74B5 /* Creature.swift */; };
+		D97CBF391D21856800FF74B5 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF2A1D21856800FF74B5 /* MSButtonNode.swift */; };
+		D97CBF3A1D21856800FF74B5 /* MSReferenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF2B1D21856800FF74B5 /* MSReferenceNode.swift */; };
+		D97CBF3B1D21856800FF74B5 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF2D1D21856800FF74B5 /* CGFloat+Extensions.swift */; };
+		D97CBF3C1D21856800FF74B5 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF2E1D21856800FF74B5 /* CGPoint+Extensions.swift */; };
+		D97CBF3D1D21856800FF74B5 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF2F1D21856800FF74B5 /* CGVector+Extensions.swift */; };
+		D97CBF3E1D21856800FF74B5 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF301D21856800FF74B5 /* Int+Extensions.swift */; };
+		D97CBF3F1D21856800FF74B5 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF311D21856800FF74B5 /* SKAction+Extensions.swift */; };
+		D97CBF401D21856800FF74B5 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF321D21856800FF74B5 /* SKAction+SpecialEffects.swift */; };
+		D97CBF411D21856800FF74B5 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF331D21856800FF74B5 /* SKColor+Extensions.swift */; };
+		D97CBF421D21856800FF74B5 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF341D21856800FF74B5 /* SKNode+Extensions.swift */; };
+		D97CBF431D21856800FF74B5 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF351D21856800FF74B5 /* SKTAudio.swift */; };
+		D97CBF441D21856800FF74B5 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF361D21856800FF74B5 /* SKTEffects.swift */; };
+		D97CBF451D21856800FF74B5 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF371D21856800FF74B5 /* SKTTimingFunctions.swift */; };
+		D97CBF461D21856800FF74B5 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CBF381D21856800FF74B5 /* Vector3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +49,29 @@
 		D97CBF0B1D2076B800FF74B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D97CBF0E1D2076B800FF74B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D97CBF101D2076B800FF74B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97CBF171D20775000FF74B5 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		D97CBF181D20775000FF74B5 /* balloon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon@2x.png"; sourceTree = "<group>"; };
+		D97CBF191D20775000FF74B5 /* bubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble@2x.png"; sourceTree = "<group>"; };
+		D97CBF1A1D20775000FF74B5 /* grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid@2x.png"; sourceTree = "<group>"; };
+		D97CBF1B1D20775000FF74B5 /* microscope@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microscope@2x.png"; sourceTree = "<group>"; };
+		D97CBF1C1D20775000FF74B5 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		D97CBF1D1D20775000FF74B5 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		D97CBF251D207F0300FF74B5 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		D97CBF271D2081B500FF74B5 /* Creature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		D97CBF2A1D21856800FF74B5 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		D97CBF2B1D21856800FF74B5 /* MSReferenceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReferenceNode.swift; sourceTree = "<group>"; };
+		D97CBF2D1D21856800FF74B5 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		D97CBF2E1D21856800FF74B5 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		D97CBF2F1D21856800FF74B5 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		D97CBF301D21856800FF74B5 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		D97CBF311D21856800FF74B5 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		D97CBF321D21856800FF74B5 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		D97CBF331D21856800FF74B5 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		D97CBF341D21856800FF74B5 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		D97CBF351D21856800FF74B5 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		D97CBF361D21856800FF74B5 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		D97CBF371D21856800FF74B5 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		D97CBF381D21856800FF74B5 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +104,63 @@
 		D97CBEFF1D2076B800FF74B5 /* Gameoflife */ = {
 			isa = PBXGroup;
 			children = (
+				D97CBF291D21856800FF74B5 /* Utils */,
 				D97CBF001D2076B800FF74B5 /* AppDelegate.swift */,
 				D97CBF021D2076B800FF74B5 /* GameScene.sks */,
+				D97CBF271D2081B500FF74B5 /* Creature.swift */,
 				D97CBF041D2076B800FF74B5 /* GameScene.swift */,
 				D97CBF061D2076B800FF74B5 /* GameViewController.swift */,
+				D97CBF251D207F0300FF74B5 /* Grid.swift */,
 				D97CBF081D2076B800FF74B5 /* Main.storyboard */,
 				D97CBF0B1D2076B800FF74B5 /* Assets.xcassets */,
 				D97CBF0D1D2076B800FF74B5 /* LaunchScreen.storyboard */,
 				D97CBF101D2076B800FF74B5 /* Info.plist */,
+				D97CBF161D20775000FF74B5 /* assets */,
 			);
 			path = Gameoflife;
+			sourceTree = "<group>";
+		};
+		D97CBF161D20775000FF74B5 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D97CBF171D20775000FF74B5 /* background@2x.png */,
+				D97CBF181D20775000FF74B5 /* balloon@2x.png */,
+				D97CBF191D20775000FF74B5 /* bubble@2x.png */,
+				D97CBF1A1D20775000FF74B5 /* grid@2x.png */,
+				D97CBF1B1D20775000FF74B5 /* microscope@2x.png */,
+				D97CBF1C1D20775000FF74B5 /* pause@2x.png */,
+				D97CBF1D1D20775000FF74B5 /* play@2x.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		D97CBF291D21856800FF74B5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D97CBF2A1D21856800FF74B5 /* MSButtonNode.swift */,
+				D97CBF2B1D21856800FF74B5 /* MSReferenceNode.swift */,
+				D97CBF2C1D21856800FF74B5 /* SKTUtils */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D97CBF2C1D21856800FF74B5 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D97CBF2D1D21856800FF74B5 /* CGFloat+Extensions.swift */,
+				D97CBF2E1D21856800FF74B5 /* CGPoint+Extensions.swift */,
+				D97CBF2F1D21856800FF74B5 /* CGVector+Extensions.swift */,
+				D97CBF301D21856800FF74B5 /* Int+Extensions.swift */,
+				D97CBF311D21856800FF74B5 /* SKAction+Extensions.swift */,
+				D97CBF321D21856800FF74B5 /* SKAction+SpecialEffects.swift */,
+				D97CBF331D21856800FF74B5 /* SKColor+Extensions.swift */,
+				D97CBF341D21856800FF74B5 /* SKNode+Extensions.swift */,
+				D97CBF351D21856800FF74B5 /* SKTAudio.swift */,
+				D97CBF361D21856800FF74B5 /* SKTEffects.swift */,
+				D97CBF371D21856800FF74B5 /* SKTTimingFunctions.swift */,
+				D97CBF381D21856800FF74B5 /* Vector3.swift */,
+			);
+			path = SKTUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +195,7 @@
 				TargetAttributes = {
 					D97CBEFC1D2076B700FF74B5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9GRW5E3ECY;
 					};
 				};
 			};
@@ -130,7 +224,14 @@
 			files = (
 				D97CBF031D2076B800FF74B5 /* GameScene.sks in Resources */,
 				D97CBF0F1D2076B800FF74B5 /* LaunchScreen.storyboard in Resources */,
+				D97CBF201D20775000FF74B5 /* bubble@2x.png in Resources */,
 				D97CBF0C1D2076B800FF74B5 /* Assets.xcassets in Resources */,
+				D97CBF1E1D20775000FF74B5 /* background@2x.png in Resources */,
+				D97CBF1F1D20775000FF74B5 /* balloon@2x.png in Resources */,
+				D97CBF211D20775000FF74B5 /* grid@2x.png in Resources */,
+				D97CBF231D20775000FF74B5 /* pause@2x.png in Resources */,
+				D97CBF241D20775000FF74B5 /* play@2x.png in Resources */,
+				D97CBF221D20775000FF74B5 /* microscope@2x.png in Resources */,
 				D97CBF0A1D2076B800FF74B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +243,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97CBF3D1D21856800FF74B5 /* CGVector+Extensions.swift in Sources */,
+				D97CBF3A1D21856800FF74B5 /* MSReferenceNode.swift in Sources */,
+				D97CBF421D21856800FF74B5 /* SKNode+Extensions.swift in Sources */,
 				D97CBF051D2076B800FF74B5 /* GameScene.swift in Sources */,
+				D97CBF3F1D21856800FF74B5 /* SKAction+Extensions.swift in Sources */,
 				D97CBF071D2076B800FF74B5 /* GameViewController.swift in Sources */,
 				D97CBF011D2076B800FF74B5 /* AppDelegate.swift in Sources */,
+				D97CBF3C1D21856800FF74B5 /* CGPoint+Extensions.swift in Sources */,
+				D97CBF401D21856800FF74B5 /* SKAction+SpecialEffects.swift in Sources */,
+				D97CBF391D21856800FF74B5 /* MSButtonNode.swift in Sources */,
+				D97CBF451D21856800FF74B5 /* SKTTimingFunctions.swift in Sources */,
+				D97CBF411D21856800FF74B5 /* SKColor+Extensions.swift in Sources */,
+				D97CBF3E1D21856800FF74B5 /* Int+Extensions.swift in Sources */,
+				D97CBF281D2081B500FF74B5 /* Creature.swift in Sources */,
+				D97CBF431D21856800FF74B5 /* SKTAudio.swift in Sources */,
+				D97CBF3B1D21856800FF74B5 /* CGFloat+Extensions.swift in Sources */,
+				D97CBF441D21856800FF74B5 /* SKTEffects.swift in Sources */,
+				D97CBF461D21856800FF74B5 /* Vector3.swift in Sources */,
+				D97CBF261D207F0300FF74B5 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +376,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Gameoflife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Gameoflife;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Gameoflife-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -270,10 +391,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Gameoflife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Gameoflife;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Gameoflife-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -296,6 +421,7 @@
 				D97CBF151D2076B800FF74B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
